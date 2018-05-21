@@ -1,11 +1,12 @@
-def fizzbuzz(num)
-  if num/3.is_a? Integer 
+def fizzbuzz(int)
+  if int % 3 == 0
     return "Fizz"
-  elsif num/5 == true
-    return "Buzz"
-  elsif num/3 & & num/5 == true
-    return "FizzBuzz"
-  else
-    return nil 
+#    return "Fizz"
+#  elsif num/5 == true
+#    return "Buzz"
+#  elsif num/3 & & num/5 == true
+#    return "FizzBuzz"
+#  else
+#    return nil 
   end
 end
